@@ -109,7 +109,7 @@ padding: 2rem 3rem 1rem 3rem;
     display: flex;
     font-size: 1rem;
     align-items: center;
-    margin-bottom: -1rem;
+    margin-bottom: -0.6rem;
     margin-left: -0.3rem;
 }
 
@@ -193,6 +193,9 @@ footer .copyright{
 }
 
 @media screen and (max-width:640px) {
+    main{
+        padding: 5rem 2rem 2rem 2rem;
+    }
     .about h2{
         font-size: 2rem;
     }
@@ -200,14 +203,18 @@ footer .copyright{
         flex-direction: column;
     }
     .social .box{
-        margin-bottom: 3rem;
         align-items: center;
     }
+
+    .box ul{
+        margin-bottom: 3rem;
+    }
+
     .box h3{
         font-size: 1.5rem;
     }
 
     hr{
-        margin: 1.2rem 0rem;
+        margin: 1.6rem 0rem 0rem 0rem;
     }
 }
