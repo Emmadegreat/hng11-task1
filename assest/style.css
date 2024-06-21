@@ -96,6 +96,10 @@ footer{
     align-items: flex-start;
     flex-direction: column;
 }
+
+.spcial .box1{
+    order: 2;
+}
 .box ul{
     display: flex;
     justify-content: space-between;
@@ -237,6 +241,10 @@ footer .copyright{
     }
     .social .box{
         align-items: start;
+    }
+
+    .box1{
+        order: 1;
     }
 
     .box ul{
