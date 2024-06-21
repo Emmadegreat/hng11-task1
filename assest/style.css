@@ -245,6 +245,7 @@ footer .copyright{
 
     .box h3{
         font-size: 1.5rem;
+        font-weight: 500;
     }
 
     hr{
@@ -281,7 +282,7 @@ footer .copyright{
     }
 
     .goals h4{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     footer{
