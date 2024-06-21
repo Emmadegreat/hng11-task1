@@ -34,10 +34,8 @@ main{
     /*margin: auto;*/
     display: flex;
     flex-direction: column;
-
     padding: 2rem 0rem;
     flex-basis: 48%;
-    border: 1px solid red;
 }
 .about img{
     max-width: 400px;
@@ -64,7 +62,6 @@ main{
     flex-direction: column;
     align-items: start;
     flex-basis: 48%;
-    border: 1px solid green;
 }
 
 .goals h4{
@@ -98,7 +95,6 @@ footer{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    border: 1px solid red;
 }
 .box ul{
     display: flex;
