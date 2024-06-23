@@ -78,8 +78,26 @@ main{
     margin-left: 2rem;
 }
 
-.goals .github-link:hover{
-    margin: 1.2rem 0rem 0rem 0rem;
+.github-link{
+    margin: 4rem 0rem 0rem 0rem;
+    text-decoration: none;
+    color: rgb(212, 209, 209);
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 300px;
+    padding: 1rem;
+    background-color: #1d3344;
+    border-radius: 10px;
+    border: 1px solid rgb(212, 209, 209);
+    width: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.github-link:hover{
     text-decoration: none;
     color: #1d3344;
     font-size: 1.2rem;
@@ -101,23 +119,6 @@ main{
     -o-transition: all 1s ease-in-out;
 }
 
-.goals .github-link{
-    margin: 1.2rem 0rem 0rem 0rem;
-    text-decoration: none;
-    color: rgb(212, 209, 209);
-    font-size: 1.2rem;
-    text-align: center;
-    max-width: 300px;
-    padding: 1rem;
-    background-color: #1d3344;
-    border-radius: 10px;
-    border: 1px solid rgb(212, 209, 209);
-    width: 100%;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
 
 
 footer{
