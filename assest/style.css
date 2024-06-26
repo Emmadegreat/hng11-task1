@@ -38,10 +38,9 @@ main{
     flex-basis: 48%;
 }
 .about img{
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
-    margin: auto;
-    max-height: 400px;
+    max-height: 300px;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -51,8 +50,8 @@ main{
 
 .about h2{
     margin: 1.2rem 0rem;
-    font-weight: 700;
-    font-size: 3rem;
+    font-weight: 600;
+    font-size: 2.5rem;
     text-align: start;
 
 }
@@ -66,8 +65,9 @@ main{
 
 .goals h4{
     margin: 1rem 0rem;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.8rem;
+    text-transform: capitalize;
     text-align: justify;
     text-decoration: underline;
 }
@@ -165,8 +165,8 @@ footer{
     margin-left: -0.3rem;
 }
 
-.box h3{
-    font-size: 1.9rem;
+.box h4{
+    font-size: 1.7rem;
     font-weight: 100;
 }
 
@@ -227,9 +227,6 @@ footer .copyright{
         flex-direction: column;
     }
 
-    .about{
-        margin: auto;
-    }
 
     .about img{
         max-width: 300px;
@@ -246,7 +243,7 @@ footer .copyright{
         font-size: 1.5rem;
         font-weight: 600;
     }
-    .box h3{
+    .box h4{
         font-size: 1.6rem;
     }
 
@@ -293,7 +290,7 @@ footer .copyright{
         margin-bottom: 3rem;
     }
 
-    .box h3{
+    .box h4{
         font-size: 1.5rem;
         font-weight: 500;
     }
@@ -309,20 +306,17 @@ footer .copyright{
         color: rgb(212, 209, 209);
     }
 
-    .about{
-        align-items: center;
-        margin: auto;
-    }
 
     .about h2{
         margin: 1.2rem 0rem;
         font-weight: 600;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         text-align: center;
     }
     .about img{
         max-width: 240px;
         width: 100%;
+        margin: auto;
         max-height: 240px;
         border-radius: 100%;
         -webkit-border-radius: 100%;
