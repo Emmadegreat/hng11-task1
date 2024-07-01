@@ -30,11 +30,6 @@ main{
     align-items: center;
 }
 
-.section-one > div:nth-child(1){
-    display: flex;
-    flex-direction: column;
-}
-
 
 .section-one > div:nth-child(2) {
     display: flex;
