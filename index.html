@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emmanuel Mkpurunchi | Frontend Developer</title>
     <link rel="icon" href="./assest/images/pix3.jpg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assest/style.css">
 </head>
 <body>
@@ -13,56 +12,47 @@
         <h1>HNG Stage One Task</h1>
     </header>
     <main>
-        <div class="wrapper">
-            <div class="about">
-                <img src="https://res.cloudinary.com/dbnxbly1r/image/upload/v1718629770/general/profile_toymad.svg" alt="profile icon">
-                <h2>Emmanuel Mkpurunchi</h2>
+        <div class="section-one">
+            <div>
+                <img data-testid="slackProfilePicture" src="https://res.cloudinary.com/dbnxbly1r/image/upload/v1718629770/general/profile_toymad.svg" alt="profile icon">
+            </div>
+            <div>
+                <h2 data-testid="slackDisplayName">EMF</h2>
+                <p data-testid="slackEmail">mkpurunchiemma@gmail.com</p>
+                <p  data-testid="currentTimeUTC" id="current_utc"></p>
+                <p  data-testid="currentDay" id="current_day"></p>
             </div>
 
-            <div class="goals">
+        </div>
+
+        <section class="section-two">
+
+            <div>
                 <h4>My two years tech goals.</h4>
                 <ol>
                     <li>To be a fullstack developer.</li>
                     <li>To get a good tech job.</li>
                     <li>To have a good network of people in the tech ecosystem.</li>
                     <li>To build applications that can profer solutions to real life problems.</li>
+                    <li>To give back to the society by imparting tech skills to the upcoming tech newbies.</li>
                 </ol>
-                <a class="github-link" href="https://github.com/Emmadegreat/hng11-task1" target="_blank">Task GitHub Link</a>
+                <!--<a class="github-link" href="https://github.com/Emmadegreat/hng11-task1" target="_blank">Task GitHub Link</a>-->
             </div>
 
-        </div>
+            <div>
+                <h4>Useful Links</h4>
+                <a data-testid="hngLink" class="github-link" href="https://hng.tech/learn" target="_blank">HNG Tech</a>
+                <a data-testid="keywordLink" class="github-link" href="https://keyword.dog/" target="_blank">Keyword</a>
+                <a data-testid="scrapeanywebLink" class="github-link" href="https://scrapeanyweb.site/" target="_blank">Scrape any website</a>
+            </div>
+
+        </section>
     </main>
     <footer>
 
-        <div class="social">
-            <div class="box">
-                <h4>Connect with me on</h4>
-                <ul>
-                    <li><a href="https://www.facebook.com/emmanuelf.mkpurunchi" class="fa fa-facebook" target="_blank"></a> </li>
-                    <li><a href="https://www.instagram.com/mkpurunchi/" class="fa fa-instagram" target="_blank"></a></li>
-                    <li><a href="https://github.com/Emmadegreat/" class="fa fa-github" target="_blank"></a></li>
-                    <li><a href="https://twitter.com/Emmadegreat_" class="x-icon1" target="_blank">
-                        <img src="./assest/images/profile.png" alt="twitter" class="x-icon">
-                    </a></li>
-                    <li><a href="https://www.linkedin.com/in/emmanuelmkpurunchi/" class="fa fa-linkedin" target="_blank"></a></li>
-                </ul>
-            </div>
-            <div class="box box1">
-                <h4>Contact</h4>
-                <div class="contact-list">
-                    <li><i class="fa fa-phone"></i>+23407034534697</li>
-                    <li><i class="fa fa-envelope"></i>emf0046@gmail.com</li>
-                </div>
-            </div>
-        </div>
 
-
-        <hr>
-        <div class="copyright">
-            <span>&copy; HNG11 </span> &nbsp;&nbsp;
-            <span>2024</span>
-        </div>
     </footer>
+    <script src="./assest/js/app.js"></script>
 
 </body>
 </html>
