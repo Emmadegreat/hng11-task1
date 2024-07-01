@@ -104,9 +104,10 @@ main{
 
 
 footer{
-    padding: 4rem 3rem 1rem 3rem;
+    padding: 2rem 1.5rem;
     margin-top: 1.1rem;
     color: rgb(212, 209, 209);
+    text-align: center;
     background-color: #222832;
 }
 
