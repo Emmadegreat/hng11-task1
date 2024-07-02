@@ -13,6 +13,7 @@ header{
     position: fixed;
     height: 70px;
     width: 100%;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
