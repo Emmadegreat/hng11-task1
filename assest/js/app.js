@@ -1,27 +1,24 @@
-let currentDay = document.getElementById("current_day");
+const currentDay = document.getElementById("current_day");
 
 const weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-let date = new Date();
+const date = new Date();
 
-let day = weekDays[date.getDay()];
+const day = weekDays[date.getDay()];
 currentDay.innerHTML = day;
 
-//let hour = date.getUTCHours();
-//let minutes = date.getUTCMinutes();
-//let seconds = date.getUTCSeconds();
-//let currentUTCTime = document.getElementById("current_utc");
-//currentUTCTime.innerHTML = date.getTime();
 
 
-function updateUTCTime() {
-    const now = new Date();
-    const hours = String(now.getUTCHours()).padStart(2, '0');
-    const minutes = String(now.getUTCMinutes()).padStart(2, '0');
-    let seconds = String(now.getUTCSeconds()).padStart(2, '0');
-    const currentTime = `${hours}:${minutes}:${seconds}`;
-    document.getElementById('current_utc').innerHTML = currentTime+ ' UTC';
+function updateDateTime() {
+
+    const date = new Date();
+    const hours = String(date.getUTCHours()).padStart(2, '0');
+    const minutes = String(date.getUTCMinutes()).padStart(2, '0');
+    const seconds = String(date.getUTCSeconds()).padStart(2, '0');
+    const currentUTC = document.getElementById("current_utc");
+
+    const currentTime = `${hours}:${minutes}:${seconds} UTC`;
+    currentUTC.innerHTML = currentTime;
 }
 
-updateUTCTime();
-setInterval(updateUTCTime, 60000);
-
+updateDateTime();
+setInterval(updateDateTime, 1000);
